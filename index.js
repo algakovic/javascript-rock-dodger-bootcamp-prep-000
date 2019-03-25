@@ -98,7 +98,8 @@ function moveDodgerLeft() {
    
    * Finally we move the DODGER-LEFT-Edge as usual by providing a requirement and interpolating the left edge adding or subtracting and appending a position with 'px' at the end
    
-   * E.g: window.requestAnimationFrame(function(){
+   * E.g:
+   * window.requestAnimationFrame(function(){
      const left = positionToInteger(DODGER.style.left) 
      if (left > 0){
        DODGER.style.left = `${left - 4}px`
