@@ -91,9 +91,10 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  /** These can be done by calling window.requestAnimationFrame and passing it a function we define within; then creating a constant within the function which represents left using the code for a constant we have defined for dodger.style.left before 
+  /** These can be done by calling window.requestAnimationFrame and passing it a function we define within; then creating a constant within the function which represents left using the code for a constant we have defined for dodger.style.left before. Finally we move the DODGER-LEFT-Edge as usual by providing a requirement and interpolating the left edge adding or subtracting and appending a position with 'px' at the end
    * window.requestAnimationFrame(function(){
      const left = positionToInteger(DODGER.style.left) 
+     if (left < 400)
    })
    * 
    * 
