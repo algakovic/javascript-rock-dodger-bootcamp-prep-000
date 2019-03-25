@@ -91,9 +91,9 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  /** These can be done by calline window.requestAnimationFrame and passing it a function we define within:
+  /** These can be done by calline window.requestAnimationFrame and passing it a function we define within; then creating a constant which represents left as a number
    * window.requestAnimationFrame(function(){
-     
+     const left
    })
    * 
    * 
