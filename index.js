@@ -78,6 +78,15 @@ function endGame() {
 
 
 function moveDodger(e) {
+  /**  calles preventDefault and stopPropagation for every item in the array that equates to e.which.
+   * const code = e.which
+
+  if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
+    e.preventDefault()
+    e.stopPropagation()
+  }
+   * 
+    **/
   if (e.which === LEFT_ARROW){
     moveDodgerLeft();
     e.preventDefault();
