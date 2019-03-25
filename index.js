@@ -78,7 +78,8 @@ function endGame() {
 
 
 function moveDodger(e) {
-  /**  calles preventDefault and stopPropagation for every item in the array that equates to e.which.
+  /**  calles preventDefault and stopPropagation for every item in the array that equates to e.which
+   *  > -1 just means if it exists in the array(0,1,2,etc)
    * const code = e.which
 
   if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
