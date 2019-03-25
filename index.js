@@ -91,9 +91,9 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  /** These can be done by calline window.requestAnimationFrame and passing it a function we define within; then creating a constant which represents left as a number
+  /** These can be done by calling window.requestAnimationFrame and passing it a function we define within; then creating a constant within the function which represents left using the code for a constant we have defined for dodger.style.left before 
    * window.requestAnimationFrame(function(){
-     const left
+     const left = positionToInteger(dodger.style.left) 
    })
    * 
    * 
