@@ -91,7 +91,13 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  
+  /** These can be done by calline window.requestAnimationFrame and passing it a function we define within:
+   * window.requestAnimationFrame(function(){
+     
+   })
+   * 
+   * 
+   **/
 
     var leftNumbers = dodger.style.left.replace('px','');
     var left = parseInt(leftNumbers, 10);
